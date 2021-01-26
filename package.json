@@ -4,10 +4,8 @@
   "description": "COVID Website",
   "main": "scrape.js",
   "scripts": {
-    "client-install": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon scrape.js",
-    "client": "npm start --prefix client"
+    "start": "node scrape.js"
   },
   "author": "",
   "license": "ISC",
